@@ -160,12 +160,12 @@ sup {
 }
 
 a {
-  color: #a19664;
+  color: #467370;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #467370;
+  color: #f18b50;
   text-decoration: underline;
 }
 
@@ -1547,7 +1547,6 @@ pre code {
   }
 
   .col-xl-8 {
-    flex: 0 0 66.6666666667%;
     max-width: 66.6666666667%;
   }
 
