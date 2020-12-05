@@ -59,6 +59,15 @@
 
 $("#showcase").on({
     mouseenter: function () {
+        this.setAttribute('src', 'assets/img/burger-color.png');
+    },
+    mouseleave: function () {
+        this.setAttribute('src', 'assets/img/burger-bw.png');
+    }
+});
+
+$("#project1").on({
+    mouseenter: function () {
         this.setAttribute('src', 'assets/img/mtg-color.png');
     },
     mouseleave: function () {
@@ -66,20 +75,11 @@ $("#showcase").on({
     }
 });
 
-$("#project1").on({
+$("#project2").on({
     mouseenter: function () {
         this.setAttribute('src', 'assets/img/weather-color.png');
     },
     mouseleave: function () {
         this.setAttribute('src', 'assets/img/weather-bw.png');
-    }
-});
-
-$("#project2").on({
-    mouseenter: function () {
-        this.setAttribute('src', 'assets/img/quiz-color.png');
-    },
-    mouseleave: function () {
-        this.setAttribute('src', 'assets/img/quiz-bw.png');
     }
 });
