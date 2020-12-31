@@ -57,29 +57,29 @@
 
 // Functionality for swapping out images on mouseover
 
-$("#showcase").on({
+$("#featured").on({
     mouseenter: function () {
-        this.setAttribute('src', 'assets/img/burger-color.png');
+        this.setAttribute('src', 'assets/img/project-featured/color.png');
     },
     mouseleave: function () {
-        this.setAttribute('src', 'assets/img/burger-bw.png');
+        this.setAttribute('src', 'assets/img/project-featured/bw.png');
     }
 });
 
 $("#project1").on({
     mouseenter: function () {
-        this.setAttribute('src', 'assets/img/mtg-color.png');
+        this.setAttribute('src', 'assets/img/project-one/color.png');
     },
     mouseleave: function () {
-        this.setAttribute('src', 'assets/img/mtg-bw.png');
+        this.setAttribute('src', 'assets/img/project-one/bw.png');
     }
 });
 
 $("#project2").on({
     mouseenter: function () {
-        this.setAttribute('src', 'assets/img/weather-color.png');
+        this.setAttribute('src', 'assets/img/project-two/color.png');
     },
     mouseleave: function () {
-        this.setAttribute('src', 'assets/img/weather-bw.png');
+        this.setAttribute('src', 'assets/img/project-two/bw.png');
     }
 });
