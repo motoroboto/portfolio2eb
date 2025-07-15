@@ -1853,7 +1853,7 @@ pre code {
 .table-light,
 .table-light > th,
 .table-light > td {
-  background-color: #fdfdfe;
+  background-color: #fff;
 }
 .table-light th,
 .table-light td,
@@ -1863,11 +1863,11 @@ pre code {
 }
 
 .table-hover .table-light:hover {
-  background-color: #ececf6;
+  background-color: #fff;
 }
 .table-hover .table-light:hover > td,
 .table-hover .table-light:hover > th {
-  background-color: #ececf6;
+  background-color: #fff;
 }
 
 .table-dark,
